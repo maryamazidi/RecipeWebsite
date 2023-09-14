@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.heading{
+color: rgb(255, 115, 0);
+font-family: 'Abril Fatface', cursive;
+font-size: 48px;
+letter-spacing: 3px;
+margin: 2rem;
+text-align: center;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 22px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section{
+    width: 80vw;
+    border: 3px solid rgb(255, 115, 0);
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 5rem;
+}
+
+h3{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.dinner, .launch, .dessert{
+    width: 300px;
+    height: 280px;
+    border-radius: 5px;
+    background-color: rgb(251, 206, 168);
+    display: inline-block;
+    position: relative;
+}
+
+
+.section2{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h4{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px;
+}
+
+.more{
+    color: white;
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    position: absolute;
+    left: 127px;
+    bottom: 10px;
+}
