@@ -72,6 +72,7 @@ p{
     margin-top: 5rem;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -93,3 +94,18 @@ h4{
     left: 127px;
     bottom: 10px;
 }
+
+@media only screen and (max-width: 764px) {
+    .dinner, .launch, .dessert{
+        display: block;
+        margin: 15px;
+    }
+}
+
+@media only screen and (min-width: 766px) and (max-width:1200px) {
+    .dinner, .launch, .dessert{
+        display: inline-block;
+        margin: 15px;
+    }
+}
+    
