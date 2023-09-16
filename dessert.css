@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 22px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header nav{
+    position: sticky;
+    top: -1px;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.title{
+    width: 100%;
+}
+
+h3{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.title p{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.dessert-cards{
+    width: 100%;
+    margin: 2rem auto;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dessert-cards-2{
+    width: 100%;
+    margin: 2rem auto;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.dessert-index{
+    width: 14.3rem;
+    height: 13.4rem;
+    background-color: rgb(251, 206, 168);
+    border-radius: 5px;
+}
+
+.dessert-index img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.dessert-index a{
+    text-decoration: none;
+}
+
+.dessert-index a h4{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.section3{
+    width: 50%;
+    margin: auto;
+    border: 3px solid rgb(255, 115, 0);
+    border-radius: 5px;
+    display: flex;
+    
+    position: relative;
+}
+
+.section3 h3{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 65px 20px;
+    color: black;
+    float: left;
+    border-right: 2px solid rgb(255, 115, 0);
+    align-self: center;
+}
+
+.section3 ul{
+   float: right;
+   padding: 20px 0 20px 60px;
+
+}
+
+.section3 ul li{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: black;
+}
